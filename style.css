@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: slategray;
+}
+
+.container {
+  width: 1000px;
+  margin: 25px auto 25px auto;
+  padding: 50px 50px 50px 50px;
+  background-color: white;
+  box-shadow: 0 0 20px #ccc;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+#footer p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 14px;
+  color: gray;
+}
+
+#footer p a {
+  color: gray;
+}
+
+svg {
+  background-color: ghostwhite;
+  display: block;
+  margin-top: 1em;
+}
+
+path:hover {
+  fill: #bef1aa
+}
+
+.area {
+  stroke: none;
+  cursor: pointer;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+#backButton {
+  cursor: pointer;
+}
+
+#backButton rect {
+  fill: #ccc;
+}
+
+#backButton text {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  fill: black;
+}
+
+#backButton:hover rect {
+  fill: rgb(223, 120, 120);
+}
+
+#label text {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  fill: #666;
+}
